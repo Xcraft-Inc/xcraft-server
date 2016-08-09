@@ -19,10 +19,7 @@
   ],
   "dependencies": {
     "shrew": "^0.1.1",
-    "watt": "^3.3.0",
-    "xcraft-core-bus": "^1.0.0",
     "xcraft-core-etc": "^1.0.0",
-    "xcraft-core-goblin": "^1.0.0",
     "xcraft-core-log": "^1.0.0",
     "xcraft-core-server": "^1.0.0"
   },
