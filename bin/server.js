@@ -3,7 +3,7 @@
 
 require ('../lib/init-env.js');
 const moduleName = 'goblins';
-
+const watt     = require ('watt');
 const path     = require ('path');
 const xLog     = require ('xcraft-core-log') (moduleName);
 const serverOptions = {
