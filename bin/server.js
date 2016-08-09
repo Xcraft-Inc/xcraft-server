@@ -16,16 +16,14 @@ const serverOptions = {
   }
 };
 
-const xServer = require ('xcraft-core-server') (serverOptions);
-const busClient = require ('xcraft-core-busclient').initGlobal ();
+const xServer   = require ('xcraft-core-server') (serverOptions);
+
 const boot = watt (function * (next) {
-  try {
-    xServer.start ();
-    yield busClient.connect (null, next);
-    xLog.info (`Server started and connected with ${busClient.getOrcName ()}`);
-  } catch (err) {
+  yield xServer.start (next);
+});
+
+boot ((err) => {
+  if (err) {
     xLog.err (err);
   }
 });
-
-boot ();
