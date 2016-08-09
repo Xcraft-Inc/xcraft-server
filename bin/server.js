@@ -5,8 +5,7 @@ const moduleName = 'goblins';
 
 require ('../lib/init-env.js');
 
-const watt     = require ('watt');
-const xLog     = require ('xcraft-core-log') (moduleName);
+const xLog = require ('xcraft-core-log') (moduleName);
 
 const serverOptions = {
   detached: false,
@@ -16,13 +15,9 @@ const serverOptions = {
   }
 };
 
-const xServer   = require ('xcraft-core-server') (serverOptions);
+const xServer = require ('xcraft-core-server') (serverOptions);
 
-const boot = watt (function * (next) {
-  yield xServer.start (next);
-});
-
-boot ((err) => {
+xServer.start ((err) => {
   if (err) {
     xLog.err (err);
   }
