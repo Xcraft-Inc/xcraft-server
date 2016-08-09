@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 'use strict';
 
-require ('../lib/init-env.js');
 const moduleName = 'goblins';
+
+require ('../lib/init-env.js');
+
 const watt     = require ('watt');
-const path     = require ('path');
 const xLog     = require ('xcraft-core-log') (moduleName);
+
 const serverOptions = {
   detached: false,
   logs:     true,
