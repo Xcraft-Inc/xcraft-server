@@ -5,6 +5,9 @@
   "bin": {
     "xcraft-server": "bin/server.js"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
