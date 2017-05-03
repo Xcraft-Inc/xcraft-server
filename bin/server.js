@@ -1,7 +1,14 @@
 #!/usr/bin/env node
 'use strict';
 
+const moduleName = 'server';
+
 const root = require ('shrew') ();
 const xServer = require ('../server.js') (root, root);
+const xLog = require ('xcraft-core-log') (moduleName, null);
 
-xServer.start ();
+xServer.start (err => {
+  if (err) {
+    xLog.err (err);
+  }
+});
