@@ -24,7 +24,7 @@
   "dependencies": {
     "fs-extra": "^3.0.1",
     "shrew": "^0.1.1",
-    "xcraft-core-etc": "^1.1.0",
+    "xcraft-core-etc": "^1.2.0",
     "xcraft-core-log": "^1.0.0",
     "xcraft-core-server": "^2.0.0"
   },
