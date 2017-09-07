@@ -4,7 +4,7 @@
   "description": "Standalone Xcraft server",
   "main": "lib/server.js",
   "bin": {
-    "xcraft-server": "bin/server.js"
+    "xcraft-server": "bin/server"
   },
   "engines": {
     "node": ">=6"
