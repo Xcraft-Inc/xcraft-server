@@ -3,12 +3,12 @@
 
 const moduleName = 'server';
 
-const root = require ('shrew') ();
-const xServer = require ('../server.js') (root, root);
-const xLog = require ('xcraft-core-log') (moduleName, null);
+const root = require('shrew')();
+const xServer = require('../server.js')(root, root);
+const xLog = require('xcraft-core-log')(moduleName, null);
 
-xServer.start (err => {
+xServer.start(err => {
   if (err) {
-    xLog.err (err);
+    xLog.err(err);
   }
 });
