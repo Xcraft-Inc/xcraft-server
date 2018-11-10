@@ -16,11 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/Xcraft-Inc/xcraft-server.git"
   },
-  "keywords": [
-    "xcraft",
-    "server",
-    "standalone"
-  ],
+  "keywords": ["xcraft", "server", "standalone"],
   "dependencies": {
     "fs-extra": "^5.0.0",
     "shrew": "^0.1.1",
@@ -35,7 +31,7 @@
   },
   "homepage": "https://github.com/Xcraft-Inc/xcraft-server#readme",
   "devDependencies": {
-    "xcraft-dev-rules": "^0.2.0",
-    "prettier": "1.12.1"
+    "xcraft-dev-rules": "^0.3.0",
+    "prettier": "1.15.1"
   }
 }
