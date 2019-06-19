@@ -1,6 +1,6 @@
 {
   "name": "xcraft-server",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Standalone Xcraft server",
   "main": "lib/server.js",
   "bin": {
