@@ -7,7 +7,7 @@
     "xcraft-server": "bin/server"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=14"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
