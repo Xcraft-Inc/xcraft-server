@@ -22,7 +22,7 @@
     "standalone"
   ],
   "dependencies": {
-    "fs-extra": "^9.1.0",
+    "fs-extra": "^11.3.0",
     "shrew": "^0.1.1",
     "xcraft-core-etc": "^3.0.0",
     "xcraft-core-host": "^3.0.0",
