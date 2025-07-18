@@ -3,9 +3,6 @@
   "version": "5.1.3",
   "description": "Standalone Xcraft server",
   "main": "lib/server.js",
-  "bin": {
-    "xcraft-server": "bin/server"
-  },
   "engines": {
     "node": ">=14"
   },
@@ -23,7 +20,6 @@
   ],
   "dependencies": {
     "fs-extra": "^11.3.0",
-    "shrew": "^0.1.1",
     "xcraft-core-etc": "^3.0.0",
     "xcraft-core-host": "^3.0.0",
     "xcraft-core-log": "^2.0.1",
